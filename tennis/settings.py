@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["tenniss.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["8000-karltred265-tennis-lfl3h2bk4mv.ws-eu100.gitpod.io", "localhost"]
 
 
 # Application definition
@@ -47,7 +47,10 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-    'play',
+    'django_summernote',
+    'tennisblog',
+    'userblog',
+    
 ]
 
 MIDDLEWARE = [
